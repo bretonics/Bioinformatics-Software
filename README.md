@@ -6,8 +6,9 @@
 #Tools
 | Programs       | Description    | Download         |
 | :------------- | :------------- | :-------------   |
-|[BLAST+] (https://www.ncbi.nlm.nih.gov/books/NBK279690/) | Command line applicatin suite of BLAST tools that utilizes the NCBI C++ Toolkit | [Download] (ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/)
-| [EDirect] (http://www.ncbi.nlm.nih.gov/books/NBK179288/) | An advanced method for accessing the NCBI's set of interconnected databases (publication, sequence, structure, gene, variation, expression, etc.) from a UNIX terminal | N/A 
+|[BLAST+] (https://www.ncbi.nlm.nih.gov/books/NBK279690/) | Command line applicatin suite of BLAST tools that utilizes the NCBI C++ Toolkit. | [Download] (ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/)
+| [EDirect] (http://www.ncbi.nlm.nih.gov/books/NBK179288/) | An advanced method for accessing the NCBI's set of interconnected databases (publication, sequence, structure, gene, variation, expression, etc.) from a UNIX terminal. | N/A 
+| [SRA Toolkit] (http://www.ncbi.nlm.nih.gov/books/NBK242621/) | The SRA Toolkit and SDK from NCBI is a collection of tools and libraries for using data in the INSDC Sequence Read Archives. | [Download] (http://ncbi.github.io/sra-tools/)
 
 
 #Bioinformatic Analysis Software
@@ -33,6 +34,6 @@
 ###Illumina Sequencing Options
 | Programs       | Description    | Download         |
 | :------------- | :------------- | :-------------   |
-| [DISCOVAR] (http://www.broadinstitute.org/scientific-community/science/programs/genome-sequencing-and-analysis/computational-rd/computational-) | Genome assembler and variant caller | [Download] (ftp.broadinstitute.org/pub/crd/Discovar/)
+| [DISCOVAR] (http://www.broadinstitute.org/scientific-community/science/programs/genome-sequencing-and-analysis/computational-rd/computational-) | Genome assembler and variant caller. | [Download] (ftp.broadinstitute.org/pub/crd/Discovar/)
 | [ALLPATHS-LG] (http://www.broadinstitute.org/software/allpaths-lg/blog/)   | Short read assembler and it works on both small and large (mammalian size) genomes.| [Download] (ftp.broadinstitute.org/pub/crd/ALLPATHS/Release-LG/)
-| [Velvet](http://www.ebi.ac.uk/~zerbino/velvet/) | Short read de novo assembler using de Bruijn graphs | [Download] (https://github.com/dzerbino/velvet/tree/master)
+| [Velvet](http://www.ebi.ac.uk/~zerbino/velvet/) | Short read de novo assembler using de Bruijn graphs. | [Download] (https://github.com/dzerbino/velvet/tree/master)
