@@ -16,6 +16,7 @@
 ###Analysis
 | Programs       | Description    | Download         |
 | :------------- | :------------- | :-------------   |
+| [Bowtie] (http://bowtie-bio.sourceforge.net/bowtie2/index.shtml)| An ultrafast and memory-efficient tool for aligning sequencing reads to long reference sequences. | [Download] (https://sourceforge.net/projects/bowtie-bio/files/latest/download?source=files)|
 | [MUMmer Package] (http://mummer.sourceforge.net/)| Ultra-fast alignment of large-scale DNA and protein sequences. A system for rapidly aligning entire genomes, whether in complete or draft form. <br><br>**MUMmer** is a suffix tree algorithm designed to find maximal exact matches of some minimum length between two input sequences.<br><br>**NUCmer** is a standard DNA sequence alignment. It is a robust pipeline that allows for multiple reference and multiple query sequences to be aligned in a many vs. many fashion.<br><br>**PROmer** is like NUCmer with one exception - all matching and alignment routines are performed on the six frame amino acid translation of the DNA input sequence. | [Download] (https://sourceforge.net/projects/mummer/files/latest/download?source=files)
 | [QUAST] (http://bioinf.spbau.ru/quast) | Evaluates genome assemblies. | [Download] (https://sourceforge.net/projects/quast/files/latest/download?source=files)
 | [Mauve](http://darlinglab.org/mauve/mauve.html) | A system for constructing multiple genome alignments in the presence of large-scale evolutionary events such as rearrangement and inversion. | [Download](http://darlinglab.org/mauve/download.html)
@@ -34,6 +35,8 @@
 ###Illumina Sequencing Options
 | Programs       | Description    | Download         |
 | :------------- | :------------- | :-------------   |
+| [SOAPdenovo] (http://soap.genomics.org.cn/soapdenovo.html) | Novel short-read assembly method that can build a de novo draft assembly for the human-sized genomes. | [Download] (https://sourceforge.net/projects/soapdenovo2/files/latest/download?source=files)
+| [Trinity] (https://github.com/trinityrnaseq/trinityrnaseq/wiki) | Trinity assembles transcript sequences from Illumina RNA-Seq data. | [Download] (https://github.com/trinityrnaseq/trinityrnaseq/releases/latest)
 | [DISCOVAR] (http://www.broadinstitute.org/scientific-community/science/programs/genome-sequencing-and-analysis/computational-rd/computational-) | Genome assembler and variant caller. | [Download] (ftp.broadinstitute.org/pub/crd/Discovar/)
-| [ALLPATHS-LG] (http://www.broadinstitute.org/software/allpaths-lg/blog/)   | Short read assembler and it works on both small and large (mammalian size) genomes.| [Download] (ftp.broadinstitute.org/pub/crd/ALLPATHS/Release-LG/)
+| [ALLPATHS-LG] (http://www.broadinstitute.org/software/allpaths-lg/blog/)   | Short read assembler and it works on both small and large (mammalian size) genomes.| [Download] (ftp.broadinstitute.org/pub/crd/ALLPATHS/Release-LG/latest_source_code/LATEST_VERSION.tar.gz)
 | [Velvet](http://www.ebi.ac.uk/~zerbino/velvet/) | Short read de novo assembler using de Bruijn graphs. | [Download] (https://github.com/dzerbino/velvet/tree/master)
