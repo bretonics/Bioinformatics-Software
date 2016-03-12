@@ -7,7 +7,8 @@
 | Programs       | Description    | Download         |
 | :------------- | :------------- | :-------------   |
 |[BLAST+] (https://www.ncbi.nlm.nih.gov/books/NBK279690/) | Command line applicatin suite of BLAST tools that utilizes the NCBI C++ Toolkit. | [Download] (ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/)
-| [EDirect] (http://www.ncbi.nlm.nih.gov/books/NBK179288/) | An advanced method for accessing the NCBI's set of interconnected databases (publication, sequence, structure, gene, variation, expression, etc.) from a UNIX terminal. | N/A 
+| [E-utilities] (http://www.ncbi.nlm.nih.gov/books/NBK25497/) | Entrez Programming Utilities (E-utilities) are a set of nine server-side programs that provide a stable interface into the Entrez query and database system at the NCBI. | N/A
+| [EDirect] (http://www.ncbi.nlm.nih.gov/books/NBK179288/) | An advanced method for accessing the NCBI's set of interconnected databases (publication, sequence, structure, gene, variation, expression, etc.) from a UNIX terminal. | N/A
 | [SRA Toolkit] (http://www.ncbi.nlm.nih.gov/books/NBK242621/) | The SRA Toolkit and SDK from NCBI is a collection of tools and libraries for using data in the INSDC Sequence Read Archives. | [Download] (http://ncbi.github.io/sra-tools/)
 
 
