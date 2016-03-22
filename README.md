@@ -23,6 +23,9 @@
 | [Mauve](http://darlinglab.org/mauve/mauve.html) | A system for constructing multiple genome alignments in the presence of large-scale evolutionary events such as rearrangement and inversion. | Genome Aligner| [Download](http://darlinglab.org/mauve/download.html)
 | [QUAST](http://bioinf.spbau.ru/quast) | Evaluates genome assemblies. | Evaluate Genome Assemblies | [Download](https://sourceforge.net/projects/quast/files/latest/download?source=files)
 | [HMMER]() | Search sequence databases for sequence homologs, and for making sequence alignments, analyzed by using profile hidden Markov models | Detect Homologs | [Download](http://hmmer.org/download.html)
+| [MUSCLE](http://www.drive5.com/muscle/) | MUSCLE can align hundreds of sequences in seconds. | MSA | [Download]()
+| [Clustal](http://www.clustal.org/) | Fast and scalable multiple sequence alignment (can align hundreds of thousands of sequences in hours)| MSA | [Download](http://www.clustal.org/omega/#Download)
+| [T-Coffee](http://www.tcoffee.org/) | A multiple sequence alignment package that can align sequences (Protein, DNA, and RNA) or combine the output of your favorite alignment methods (Clustal, Mafft, Probcons, Muscle...) into one unique alignment (**M-Coffee**). It is also able to combine sequence information with protein structural information (**3D-Coffee/Expresso**), profile information (**PSI-Coffee**) or RNA secondary structures. | MSA | [Download](http://www.tcoffee.org/Projects/tcoffee/#DOWNLOAD)
 
 
 ##[PacBio Sequencing](https://github.com/PacificBiosciences/Bioinformatics-Training/wiki/Large-Genome-Assembly-with-PacBio-Long-Reads)
@@ -39,8 +42,8 @@
 ###Referenced
 | Program        | Description    | Purpose          | Download         |
 | :------------- | :------------- | :-------------   | :-------------   |
-| [Bowtie](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml)| An ultrafast and memory-efficient tool for aligning sequencing reads to long reference sequences. | Read Aligner Assembly| [Download](https://sourceforge.net/projects/bowtie-bio/files/latest/download?source=files)|
-| [BWA](https://github.com/lh3/bwa) | Mapping DNA sequences against a large reference genome, such as the human genome. It consists of three algorithms: **BWA-backtrack**, **BWA-SW** and **BWA-MEM**. | Read Aligner Assembly | [Download](https://sourceforge.net/projects/bio-bwa/files/latest/download?source=files)|
+| [Bowtie](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml)| An ultrafast and memory-efficient tool for aligning sequencing reads to long reference sequences. | Read Aligner Assembly| [Download](https://sourceforge.net/projects/bowtie-bio/files/latest/download?source=files)
+| [BWA](https://github.com/lh3/bwa) | Mapping DNA sequences against a large reference genome, such as the human genome. It consists of three algorithms: **BWA-backtrack**, **BWA-SW** and **BWA-MEM**. | Read Aligner Assembly | [Download](https://sourceforge.net/projects/bio-bwa/files/latest/download?source=files)
 
 ###De novo
 | Program        | Description    | Purpose          | Download         |
