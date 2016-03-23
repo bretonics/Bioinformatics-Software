@@ -10,10 +10,10 @@
 | [E-utilities] (http://www.ncbi.nlm.nih.gov/books/NBK25497/) | Entrez Programming Utilities (E-utilities) are a set of nine server-side programs that provide a stable interface into the Entrez query and database system at the NCBI. | N/A
 | [EDirect] (http://www.ncbi.nlm.nih.gov/books/NBK179288/) | An advanced method for accessing the NCBI's set of interconnected databases (publication, sequence, structure, gene, variation, expression, etc.) from a UNIX terminal. | N/A
 | [SRA Toolkit] (http://www.ncbi.nlm.nih.gov/books/NBK242621/) | The SRA Toolkit and SDK from NCBI is a collection of tools and libraries for using data in the INSDC Sequence Read Archives. | [Download] (http://ncbi.github.io/sra-tools/)
+| [Seqtk](https://github.com/lh3/seqtk) | Fast and lightweight tool for processing sequences in the FASTA or FASTQ format. | [Git Clone](https://github.com/lh3/seqtk.git)
 
 
-#Software
-##Analysis
+#Analysis
 | Program        | Description    | Purpose          | Download         |
 | :------------- | :------------- | :-------------   | :-------------   |
 | [Galaxy](https://galaxyproject.org/) | Web portal for accessible, reproducible, and transparent computational research. | Analysis package | [Download](https://wiki.galaxyproject.org/Admin/GetGalaxy)
@@ -26,9 +26,10 @@
 | [MUSCLE](http://www.drive5.com/muscle/) | MUSCLE can align hundreds of sequences in seconds. | MSA | [Download]()
 | [Clustal](http://www.clustal.org/) | Fast and scalable multiple sequence alignment (can align hundreds of thousands of sequences in hours)| MSA | [Download](http://www.clustal.org/omega/#Download)
 | [T-Coffee](http://www.tcoffee.org/) | A multiple sequence alignment package that can align sequences (Protein, DNA, and RNA) or combine the output of your favorite alignment methods (Clustal, Mafft, Probcons, Muscle...) into one unique alignment (**M-Coffee**). It is also able to combine sequence information with protein structural information (**3D-Coffee/Expresso**), profile information (**PSI-Coffee**) or RNA secondary structures. | MSA | [Download](http://www.tcoffee.org/Projects/tcoffee/#DOWNLOAD)
+| [QIIME](http://qiime.org/) | Bioinformatics pipeline for performing microbiome analysis from raw DNA sequencing data. QIIME is designed to take users from raw sequencing data generated on the Illumina or other platforms through publication quality graphics and statistics. | Microbial Ecology Pipeline | [Install](http://qiime.org/install/index.html)
+| [Mothur](http://www.mothur.org/) |  Expandable software to fill the bioinformatics needs of the microbial ecology community. | Microbial Ecology Pipeline | [Download](http://www.mothur.org/wiki/Download_mothur)
 
-
-##[PacBio Sequencing](https://github.com/PacificBiosciences/Bioinformatics-Training/wiki/Large-Genome-Assembly-with-PacBio-Long-Reads)
+###PacBio Sequencing
 | Program        | Description    | Purpose          | Download         |
 | :------------- | :------------- | :-------------   | :-------------   |
 | [SMRT Analysis](http://www.pacb.com/products-and-services/analytical-software/smrt-analysis/)  | Self-contained software suite designed for use with Single Molecule, Real-Time (SMRT) Sequencing data.| Analysis Package| [Download] (http://www.pacb.com/support/software-downloads)
@@ -38,14 +39,14 @@
 | [Sprai](http://zombie.cb.k.u-tokyo.ac.jp/sprai/README.html)| Sprai (single-pass read accuracy improver) is a tool to correct sequencing errors in single-pass reads for de novo assembly. | Sequencing error-correction| [Download](http://zombie.cb.k.u-tokyo.ac.jp/sprai/Download.html)
 
 
-##Illumina Sequencing
-###Referenced
+###Illumina Sequencing
+####Referenced
 | Program        | Description    | Purpose          | Download         |
 | :------------- | :------------- | :-------------   | :-------------   |
 | [Bowtie](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml)| An ultrafast and memory-efficient tool for aligning sequencing reads to long reference sequences. | Read Aligner Assembly| [Download](https://sourceforge.net/projects/bowtie-bio/files/latest/download?source=files)
 | [BWA](https://github.com/lh3/bwa) | Mapping DNA sequences against a large reference genome, such as the human genome. It consists of three algorithms: **BWA-backtrack**, **BWA-SW** and **BWA-MEM**. | Read Aligner Assembly | [Download](https://sourceforge.net/projects/bio-bwa/files/latest/download?source=files)
 
-###De novo
+####De novo
 | Program        | Description    | Purpose          | Download         |
 | :------------- | :------------- | :-------------   | :-------------   |
 | [SOAPdenovo](http://soap.genomics.org.cn/soapdenovo.html) | Novel short-read assembly method that can build a de novo draft assembly for the human-sized genomes. | Genome Assembly | [Download] (https://sourceforge.net/projects/soapdenovo2/files/latest/download?source=files)
