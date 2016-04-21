@@ -41,23 +41,23 @@ my $outDir 	= setOutputDir('analysis'); #create analysis directory
 my $commands = getCommands($SRA, $ACCESSION);
 #-------------------------------------------------------------------------------
 # CALLS
-executeCommand("edirect", 		$commands); # edirect
-executeCommand("prefetch", 		$commands); # prefetch
-executeCommand("fastq-dump", 	$commands); # fastq-dump
+executeCommand("edirect",       $commands); # edirect
+executeCommand("prefetch",      $commands); # prefetch
+executeCommand("fastq-dump",    $commands); # fastq-dump
 executeCommand("bowtie2-build", $commands); # bowtie2-build
-executeCommand("bowtie2", 		$commands); # bowtie2
-executeCommand("samtools", 		$commands, "view" ); # samtools view
-executeCommand("samtools", 		$commands, "sort");  # samtools sort
-executeCommand("samtools", 		$commands, "index"); # samtools index
+executeCommand("bowtie2",       $commands); # bowtie2
+executeCommand("samtools",      $commands, "view" ); # samtools view
+executeCommand("samtools",      $commands, "sort");  # samtools sort
+executeCommand("samtools",      $commands, "index"); # samtools index
 # samtools 'tview' commented b/c you don't want to interupt your analysis
 # with a screen...execute command above once done to see alignment
 #executeCommand("samtools", 		$commands, "tview"); # samtools tview
-executeCommand("samtools", 		$commands, "consensus"); # samtools consensus
-executeCommand("seqtk", 		$commands); # seqtk
-executeCommand("nucmer", 		$commands); # nucmer
-executeCommand("show-coords", 	$commands); # show-coords
-executeCommand("mummerplot", 	$commands); # mummerplot
-executeCommand("samtools", 		$commands, "variants"); # samtools variants
+executeCommand("samtools",      $commands, "consensus"); # samtools consensus
+executeCommand("seqtk",         $commands); # seqtk
+executeCommand("nucmer",        $commands); # nucmer
+executeCommand("show-coords",   $commands); # show-coords
+executeCommand("mummerplot",    $commands); # mummerplot
+executeCommand("samtools",      $commands, "variants"); # samtools variants
 #-------------------------------------------------------------------------------
 # SUBS
 #- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
