@@ -6,12 +6,11 @@
 #Workflow Tools
 | Program        | Description    | Source           |
 | :------------- | :------------- | :-------------   |
-|[BLAST+](https://www.ncbi.nlm.nih.gov/books/NBK279690/) | Command line application suite of BLAST tools that utilizes the NCBI C++ Toolkit. | [Download](ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/)
+|[BLAST+](https://www.ncbi.nlm.nih.gov/books/NBK279690/) | Command line application suite of BLAST tools that utilizes the NCBI C++ Toolkit. | [Download](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOC_TYPE=Download)
 | [E-utilities](http://www.ncbi.nlm.nih.gov/books/NBK25497/) | Entrez Programming Utilities (E-utilities) are a set of nine server-side programs that provide a stable interface into the Entrez query and database system at the NCBI. | N/A
 | [EDirect](http://www.ncbi.nlm.nih.gov/books/NBK179288/) | An advanced method for accessing the NCBI's set of interconnected databases (publication, sequence, structure, gene, variation, expression, etc.) from a UNIX terminal. | N/A
 | [SRA Toolkit](http://www.ncbi.nlm.nih.gov/books/NBK242621/) | The SRA Toolkit and SDK from NCBI is a collection of tools and libraries for using data in the INSDC Sequence Read Archives. | [Download](http://ncbi.github.io/sra-tools/)
-| [Seqtk](https://github.com/lh3/seqtk) | Fast and lightweight tool for processing sequences in the FASTA or FASTQ format. | [Git Clone](https://github.com/lh3/seqtk.git)
-| [Circlator](http://sanger-pathogens.github.io/circlator/) |  Predict and automate assembly circularization and produce accurate linear representations of circular sequences. | [Download](https://github.com/sanger-pathogens/circlator/releases/latest)
+| [Seqtk](https://github.com/lh3/seqtk) | Fast and lightweight tool for processing sequences in the FASTA or FASTQ format. | [Download](https://github.com/lh3/seqtk/releases/latest)
 
 
 #Analysis
@@ -21,6 +20,7 @@
 | [Samtools](http://www.htslib.org/) | A suite of programs for interacting with high-throughput sequencing data (HTS) from next generation sequencing data. It consists of three separate repositories:<br><br>**Samtools:** Reading/writing/editing/indexing/viewing SAM/BAM/CRAM format.<br><br>**BCFtools:** Reading/writing BCF2/VCF/gVCF files and calling/filtering/summarising SNP and short indel sequence variants.<br><br>**HTSlib:** A C library for reading/writing high-throughput sequencing data. | HTS Toolkit| [Download](http://www.htslib.org/download/)
 | [VCFtools](https://vcftools.github.io/index.html) | Package designed for working with complex genetic variation data in the form of VCF files.| VCF Toolkit| [Download](https://vcftools.github.io/downloads.html)
 | [Picard](http://broadinstitute.github.io/picard/) | Set of command line tools for manipulating high-throughput sequencing (HTS) data and formats such as SAM/BAM/CRAM and VCF. | HTS Toolkit | [Download](https://github.com/broadinstitute/picard/releases/latest)
+| [Circlator](http://sanger-pathogens.github.io/circlator/) |  Predict and automate assembly circularization and produce accurate linear representations of circular sequences. | [Download](https://github.com/sanger-pathogens/circlator/releases/latest)
 | [MUMmer Package](http://mummer.sourceforge.net/)| Ultra-fast alignment of large-scale DNA and protein sequences. A system for rapidly aligning entire genomes, whether in complete or draft form. <br><br>**MUMmer** is a suffix tree algorithm designed to find maximal exact matches of some minimum length between two input sequences.<br><br>**NUCmer** is a standard DNA sequence alignment. It is a robust pipeline that allows for multiple reference and multiple query sequences to be aligned in a many vs. many fashion.<br><br>**PROmer** is like NUCmer with one exception - all matching and alignment routines are performed on the six frame amino acid translation of the DNA input sequence. | Genome Aligner | [Download](https://sourceforge.net/projects/mummer/files/latest/download?source=files)
 | [Mauve](http://darlinglab.org/mauve/mauve.html) | A system for constructing multiple genome alignments in the presence of large-scale evolutionary events such as rearrangement and inversion. | Genome Aligner| [Download](http://darlinglab.org/mauve/download.html)
 | [QUAST](http://bioinf.spbau.ru/quast) | Evaluates genome assemblies. | Evaluate Genome Assemblies | [Download](https://sourceforge.net/projects/quast/files/latest/download?source=files)
@@ -47,8 +47,8 @@
 ###Referenced
 | Program        | Description    | Purpose          | Source           |
 | :------------- | :------------- | :-------------   | :-------------   |
-| [Bowtie2](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml)| An ultrafast and memory-efficient tool for aligning sequencing reads to long reference sequences. | Reference Mapping | [Download](https://sourceforge.net/projects/bowtie-bio/files/latest/download?source=files)
-| [BWA](https://github.com/lh3/bwa) | Mapping DNA sequences against a large reference genome, such as the human genome. It consists of three algorithms: **BWA-backtrack**, **BWA-SW** and **BWA-MEM**. | Reference Mapping | [Download](https://sourceforge.net/projects/bio-bwa/files/latest/download?source=files)
+| [Bowtie2](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml)| An ultrafast and memory-efficient tool for aligning sequencing reads to long reference sequences. | Reference Mapping | [Download](https://github.com/BenLangmead/bowtie2/releases/latest)
+| [BWA](https://github.com/lh3/bwa) | Mapping DNA sequences against a large reference genome, such as the human genome. It consists of three algorithms: **BWA-backtrack**, **BWA-SW** and **BWA-MEM**. | Reference Mapping | [Download](https://github.com/lh3/bwa/releases/latest)
 
 ###De novo
 | Program        | Description    | Purpose          | Source           |
@@ -56,7 +56,7 @@
 | [SOAPdenovo](http://soap.genomics.org.cn/soapdenovo.html) | Novel short-read assembly method that can build a de novo draft assembly for the human-sized genomes. | Genome Assembly | [Download](https://sourceforge.net/projects/soapdenovo2/files/latest/download?source=files)
 | [ABySS](http://www.bcgsc.ca/platform/bioinfo/software/abyss) | De novo, parallel, paired-end sequence assembler designed for short reads and large genomes. | Genome Assembly | [Download](https://github.com/bcgsc/abyss/releases/latest) <br> [Install](https://github.com/bcgsc/abyss#quick-start)
 | [Trinity](https://github.com/trinityrnaseq/trinityrnaseq/wiki) | Trinity assembles transcript sequences from Illumina RNA-Seq data. | Transcriptome Assembly| [Download](https://github.com/trinityrnaseq/trinityrnaseq/releases/latest)
-| [DISCOVAR](http://www.broadinstitute.org/scientific-community/science/programs/genome-sequencing-and-analysis/computational-rd/computational-) | Genome assembler and variant caller. | Genome Assembly | [Download](ftp.broadinstitute.org/pub/crd/Discovar/)
-| [ALLPATHS-LG](http://www.broadinstitute.org/software/allpaths-lg/blog/) | Short read assembler and it works on both small and large (mammalian size) genomes.| Genome Assembly | [Download](ftp.broadinstitute.org/pub/crd/ALLPATHS/Release-LG/latest_source_code/LATEST_VERSION.tar.gz)
+| [DISCOVAR](http://www.broadinstitute.org/scientific-community/science/programs/genome-sequencing-and-analysis/computational-rd/computational-) | Genome assembler and variant caller. | Genome Assembly | [Download](http://www.broadinstitute.org/software/discovar/blog/?page_id=98)
+| [ALLPATHS-LG](http://www.broadinstitute.org/software/allpaths-lg/blog/) | Short read assembler and it works on both small and large (mammalian size) genomes.| Genome Assembly | [Download](http://www.broadinstitute.org/software/allpaths-lg/blog/?page_id=12)
 | [SPAdes](http://bioinf.spbau.ru/en/content/spades-download-0) | Genome assembler intended for both standard isolates and single-cell MDA bacteria assemblies using Illumina or IonTorrent reads and is capable of providing hybrid assemblies using PacBio, Oxford Nanopore and Sanger reads. | Genome/Hybrid Assembly | [Download](http://bioinf.spbau.ru/en/content/spades-download-0)
 | [Velvet](http://www.ebi.ac.uk/~zerbino/velvet/) | Short read de novo assembler using de Bruijn graphs. | Genome Assembly | [Download](https://github.com/dzerbino/velvet/tree/master)
