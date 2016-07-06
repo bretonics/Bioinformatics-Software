@@ -7,6 +7,7 @@
 | Program        | Description    | Source           |
 | :------------- | :------------- | :-------------   |
 | [Artemis](http://www.sanger.ac.uk/science/tools/artemis) | A genome browser and annotation tool that allows visualisation of sequence features, next generation data and the results of analyses within the context of the sequence, and also its six-frame translation. | [Download](http://www.sanger.ac.uk/science/tools/artemis)
+| [BamTools](https://github.com/pezmaster31/bamtools) | C++ API & command-line toolkit for working with BAM (Binary SAM file) data. Provides a programmer's API and an end-user's toolkit for handling BAM files. | [Clone](https://github.com/pezmaster31/bamtools/wiki/Building-and-installing)
 |[BLAST+](https://www.ncbi.nlm.nih.gov/books/NBK279690/) | Command line application suite of BLAST tools that utilizes the NCBI C++ Toolkit. | [Download](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOC_TYPE=Download)
 | [EDirect](http://www.ncbi.nlm.nih.gov/books/NBK179288/) | An advanced method for accessing the NCBI's set of interconnected databases (publication, sequence, structure, gene, variation, expression, etc.) from a UNIX terminal. | N/A
 | [E-utilities](http://www.ncbi.nlm.nih.gov/books/NBK25497/) | Entrez Programming Utilities (E-utilities) are a set of nine server-side programs that provide a stable interface into the Entrez query and database system at the NCBI. | N/A
