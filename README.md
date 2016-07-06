@@ -11,8 +11,10 @@
 |[BLAST+](https://www.ncbi.nlm.nih.gov/books/NBK279690/) | Command line application suite of BLAST tools that utilizes the NCBI C++ Toolkit. | [Download](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOC_TYPE=Download)
 | [EDirect](http://www.ncbi.nlm.nih.gov/books/NBK179288/) | An advanced method for accessing the NCBI's set of interconnected databases (publication, sequence, structure, gene, variation, expression, etc.) from a UNIX terminal. | N/A
 | [E-utilities](http://www.ncbi.nlm.nih.gov/books/NBK25497/) | Entrez Programming Utilities (E-utilities) are a set of nine server-side programs that provide a stable interface into the Entrez query and database system at the NCBI. | N/A
-| [Seqtk](https://github.com/lh3/seqtk) | Fast and lightweight tool for processing sequences in the FASTA or FASTQ format. | [Git Clone](https://github.com/lh3/seqtk.git)
+| [Samtools](http://www.htslib.org/) | A suite of programs for interacting with high-throughput sequencing data (HTS) from next generation sequencing data. It consists of three separate repositories:<br><br>**Samtools:** Reading/writing/editing/indexing/viewing SAM/BAM/CRAM format.<br><br>**BCFtools:** Reading/writing BCF2/VCF/gVCF files and calling/filtering/summarising SNP and short indel sequence variants.<br><br>**HTSlib:** A C library for reading/writing high-throughput sequencing data. | [Download](http://www.htslib.org/download/)
+| [Seqtk](https://github.com/lh3/seqtk) | Fast and lightweight tool for processing sequences in the FASTA or FASTQ format. | [Clone](https://github.com/lh3/seqtk.git)
 | [SRA Toolkit](http://www.ncbi.nlm.nih.gov/books/NBK242621/) | The SRA Toolkit and SDK from NCBI is a collection of tools and libraries for using data in the INSDC Sequence Read Archives. | [Download](http://ncbi.github.io/sra-tools/)
+| [VCFtools](https://vcftools.github.io/index.html) | Package designed for working with complex genetic variation data in the form of VCF files.| [Download](https://vcftools.github.io/downloads.html)
 
 
 #Analysis
@@ -29,9 +31,7 @@
 | [Picard](http://broadinstitute.github.io/picard/) | Set of command line tools for manipulating high-throughput sequencing (HTS) data and formats such as SAM/BAM/CRAM and VCF. | HTS Toolkit | [Download](https://github.com/broadinstitute/picard/releases/latest)
 | [QIIME](http://qiime.org/) | Bioinformatics pipeline for performing microbiome analysis from raw DNA sequencing data. QIIME is designed to take users from raw sequencing data generated on the Illumina or other platforms through publication quality graphics and statistics. | Microbial Ecology Pipeline | [Install](http://qiime.org/install/index.html)
 | [QUAST](http://bioinf.spbau.ru/quast) | Evaluates genome assemblies. | Evaluate Genome Assemblies | [Download](https://sourceforge.net/projects/quast/files/latest/download?source=files)
-| [Samtools](http://www.htslib.org/) | A suite of programs for interacting with high-throughput sequencing data (HTS) from next generation sequencing data. It consists of three separate repositories:<br><br>**Samtools:** Reading/writing/editing/indexing/viewing SAM/BAM/CRAM format.<br><br>**BCFtools:** Reading/writing BCF2/VCF/gVCF files and calling/filtering/summarising SNP and short indel sequence variants.<br><br>**HTSlib:** A C library for reading/writing high-throughput sequencing data. | HTS Toolkit| [Download](http://www.htslib.org/download/)
 | [T-Coffee](http://www.tcoffee.org/) | A multiple sequence alignment package that can align sequences (Protein, DNA, and RNA) or combine the output of your favorite alignment methods (Clustal, Mafft, Probcons, Muscle...) into one unique alignment (**M-Coffee**). It is also able to combine sequence information with protein structural information (**3D-Coffee/Expresso**), profile information (**PSI-Coffee**) or RNA secondary structures. | MSA | [Download](http://www.tcoffee.org/Projects/tcoffee/#DOWNLOAD)
-| [VCFtools](https://vcftools.github.io/index.html) | Package designed for working with complex genetic variation data in the form of VCF files.| VCF Toolkit| [Download](https://vcftools.github.io/downloads.html)
 
 
 ##PacBio Sequencing
