@@ -20,6 +20,7 @@
 #Analysis
 | Program        | Description    | Purpose          | Source           |
 | :------------- | :------------- | :-------------   | :-------------   |
+| [AUGUSTUS](http://bioinf.uni-greifswald.de/augustus/) | *ab initio*, trainable gene prediction in eukaryotic genomic sequences.  | Gene Prediction | [Download](http://bioinf.uni-greifswald.de/augustus/downloads/)
 | [Circlator](http://sanger-pathogens.github.io/circlator/) |  Predict and automate assembly circularization and produce accurate linear representations of circular sequences. | Circularize Genome | [Download](https://github.com/sanger-pathogens/circlator/releases/latest)
 | [Clustal](http://www.clustal.org/) | Fast and scalable multiple sequence alignment (can align hundreds of thousands of sequences in hours)| MSA | [Download](http://www.clustal.org/omega/#Download)
 | [Galaxy](https://galaxyproject.org/) | Web portal for accessible, reproducible, and transparent computational research. | Analysis package | [Download](https://wiki.galaxyproject.org/Admin/GetGalaxy)
