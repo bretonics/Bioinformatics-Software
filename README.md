@@ -21,6 +21,7 @@
 | Program        | Description    | Purpose          | Source           |
 | :------------- | :------------- | :-------------   | :-------------   |
 | [AUGUSTUS](http://bioinf.uni-greifswald.de/augustus/) | *ab initio*, trainable gene prediction in eukaryotic genomic sequences.  | Gene Prediction | [Download](http://bioinf.uni-greifswald.de/augustus/downloads/)
+| [BUSCO](http://busco.ezlab.org/) | Assessing genome assembly and annotation completeness with Benchmarking Universal Single-Copy Orthologs <br><br>BUSCO provides measures for quantitative assessment of genome assembly, gene set, and transcriptome completeness based on evolutionarily informed expectations of gene content from near-universal single-copy orthologs selected from [OrthoDB](http://orthodb.org/). | Assembly Quality Assesment | [Download](http://busco.ezlab.org/)
 | [Circlator](http://sanger-pathogens.github.io/circlator/) |  Predict and automate assembly circularization and produce accurate linear representations of circular sequences. | Circularize Genome | [Download](https://github.com/sanger-pathogens/circlator/releases/latest)
 | [Clustal](http://www.clustal.org/) | Fast and scalable multiple sequence alignment (can align hundreds of thousands of sequences in hours)| MSA | [Download](http://www.clustal.org/omega/#Download)
 | [Galaxy](https://galaxyproject.org/) | Web portal for accessible, reproducible, and transparent computational research. | Analysis package | [Download](https://wiki.galaxyproject.org/Admin/GetGalaxy)
