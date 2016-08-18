@@ -39,6 +39,7 @@
 ##PacBio Sequencing
 | Program        | Description    | Purpose          | Source           |
 | :------------- | :------------- | :-------------   | :-------------   |
+| [BLASR](https://github.com/PacificBiosciences/blasr) | PacBio® long read aligner | Sequence Aligner | [Download](https://github.com/PacificBiosciences/blasr/releases/latest)
 | [Canu](https://github.com/marbl/canu) | Fork of the **Celera Assembler** designed for high-noise single-molecule sequencing (such as the PacBio RSII or Oxford Nanopore MinION). | Genome Assembly | [Download](https://github.com/marbl/canu/releases/latest)
 | [Celera Assembler](http://wgs-assembler.sourceforge.net/wiki/index.php?title=Main_Page)| Celera Assembler is a de novo whole-genome shotgun (WGS) DNA sequence assembler, and can use any combination of platform reads. | Genome Assembly | [Download](https://sourceforge.net/projects/wgs-assembler/files/latest/download?source=files)
 | [Cerulean](https://sourceforge.net/projects/ceruleanassembler/) | Cerulean extends contigs assembled using short read datasets like Illumina paired-end reads using long reads like PacBio RS long reads. | Hybrid Assembly| [Download](https://sourceforge.net/projects/ceruleanassembler/files/latest/download)
