@@ -3,7 +3,7 @@
 ![](https://reposs.herokuapp.com/?path=bretonics/Bioinformatics-Software&color=orange)
 
 
-#Workflow Tools
+# Workflow Tools
 | Program        | Description    | Source           |
 | :------------- | :------------- | :-------------   |
 | [Artemis](http://www.sanger.ac.uk/science/tools/artemis) | A genome browser and annotation tool that allows visualisation of sequence features, next generation data and the results of analyses within the context of the sequence, and also its six-frame translation. | [Download](http://www.sanger.ac.uk/science/tools/artemis)
@@ -18,7 +18,7 @@
 | [VCFtools](https://vcftools.github.io/index.html) | Package designed for working with complex genetic variation data in the form of VCF files.| [Download](https://vcftools.github.io/downloads.html)
 
 
-#Analysis
+# Analysis
 | Program        | Description    | Purpose          | Source           |
 | :------------- | :------------- | :-------------   | :-------------   |
 | [AUGUSTUS](http://bioinf.uni-greifswald.de/augustus/) | *ab initio*, trainable gene prediction in eukaryotic genomic sequences.  | Gene Prediction | [Download](http://bioinf.uni-greifswald.de/augustus/downloads/)
@@ -38,7 +38,7 @@
 | [ViennaRNA Package](http://www.tbi.univie.ac.at/RNA/) | Programs for the prediction and comparison of RNA secondary structures. | Prediction | [Download](http://www.tbi.univie.ac.at/RNA/#download)
 
 
-##PacBio Sequencing
+## PacBio Sequencing
 | Program        | Description    | Purpose          | Source           |
 | :------------- | :------------- | :-------------   | :-------------   |
 | [BLASR](https://github.com/PacificBiosciences/blasr) | PacBio® long read aligner | Sequence Aligner | [Download](https://github.com/PacificBiosciences/blasr/releases/latest)
@@ -51,15 +51,17 @@
 | [Sprai](http://zombie.cb.k.u-tokyo.ac.jp/sprai/README.html)| Sprai (single-pass read accuracy improver) is a tool to correct sequencing errors in single-pass reads for de novo assembly. | Sequencing Error-correction| [Download](http://zombie.cb.k.u-tokyo.ac.jp/sprai/Download.html)
 
 
-##Illumina Sequencing
-###Referenced
+## Illumina Sequencing
+### Referenced
 | Program        | Description    | Purpose          | Source           |
 | :------------- | :------------- | :-------------   | :-------------   |
 | [Bowtie2](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml)| An ultrafast and memory-efficient tool for aligning sequencing reads to long reference sequences. | Reference Mapping | [Download](https://github.com/BenLangmead/bowtie2/releases/latest)
 | [BWA](https://github.com/lh3/bwa) | Mapping DNA sequences against a large reference genome, such as the human genome. It consists of three algorithms: **BWA-backtrack**, **BWA-SW** and **BWA-MEM**. | Reference Mapping | [Download](https://github.com/lh3/bwa/releases/latest)
-| [HISAT2](http://ccb.jhu.edu/software/hisat2/index.shtml) | HISAT2 is a fast and sensitive alignment program for mapping next-generation sequencing reads (whole-genome, transcriptome, and exome sequencing data) against the general human population (as well as against a single reference genome). | Genome/Transcriptome Mapping | [Clone] (https://github.com/infphilo/hisat2/releases)
+| [HISAT2](http://ccb.jhu.edu/software/hisat2/index.shtml) | HISAT2 is a fast and sensitive alignment program for mapping next-generation sequencing reads (whole-genome, transcriptome, and exome sequencing data) against the general human population (as well as against a single reference genome). | Whole-Genome Mapping | [Clone] (https://github.com/infphilo/hisat2/releases)
 
-###De novo
+
+
+### De novo
 | Program        | Description    | Purpose          | Source           |
 | :------------- | :------------- | :-------------   | :-------------   |
 | [ABySS](http://www.bcgsc.ca/platform/bioinfo/software/abyss) | De novo, parallel, paired-end sequence assembler designed for short reads and large genomes. | Genome Assembly | [Download](https://github.com/bcgsc/abyss/releases/latest) <br> [Install](https://github.com/bcgsc/abyss#quick-start)
@@ -69,3 +71,10 @@
 | [SPAdes](http://bioinf.spbau.ru/en/content/spades-download-0) | Genome assembler intended for both standard isolates and single-cell MDA bacteria assemblies using Illumina or IonTorrent reads and is capable of providing hybrid assemblies using PacBio, Oxford Nanopore and Sanger reads. | Genome/Hybrid Assembly | [Download](http://bioinf.spbau.ru/en/content/spades-download-0)
 | [Trinity](https://github.com/trinityrnaseq/trinityrnaseq/wiki) | Trinity assembles transcript sequences from Illumina RNA-Seq data. | Transcriptome Assembly| [Download](https://github.com/trinityrnaseq/trinityrnaseq/releases/latest)
 | [Velvet](http://www.ebi.ac.uk/~zerbino/velvet/) | Short read de novo assembler using de Bruijn graphs. | Genome Assembly | [Download](https://github.com/dzerbino/velvet/tree/master)
+
+
+## RNA-Seq
+| Program        | Description    | Purpose          | Source           |
+| :------------- | :------------- | :-------------   | :-------------   |
+| [HISAT2](http://ccb.jhu.edu/software/hisat2/index.shtml) | HISAT2 is a fast and sensitive alignment program for mapping next-generation sequencing reads (whole-genome, transcriptome, and exome sequencing data) against the general human population (as well as against a single reference genome). | Genome/Transcriptome Mapping | [Clone] (https://github.com/infphilo/hisat2/releases)
+| [Cufflinks] (http://cole-trapnell-lab.github.io/cufflinks/) | Cufflinks assembles transcripts, estimates their abundances, and tests for differential expression and regulation in RNA-Seq samples. | [Clone] (https://github.com/cole-trapnell-lab/cufflinks)
