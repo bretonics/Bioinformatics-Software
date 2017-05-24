@@ -76,6 +76,6 @@
 ## RNA-Seq
 | Program        | Description    | Purpose          | Source           |
 | :------------- | :------------- | :-------------   | :-------------   |
-| [Cufflinks] (http://cole-trapnell-lab.github.io/cufflinks/) | Cufflinks assembles transcripts, estimates their abundances, and tests for differential expression and regulation in RNA-Seq samples. | Transcriptome Assembly | [Clone] (https://github.com/cole-trapnell-lab/cufflinks)
+| [Cufflinks](http://cole-trapnell-lab.github.io/cufflinks/) | Cufflinks assembles transcripts, estimates their abundances, and tests for differential expression and regulation in RNA-Seq samples. | Transcriptome Assembly | [Clone] (https://github.com/cole-trapnell-lab/cufflinks)
 | [HISAT2](http://ccb.jhu.edu/software/hisat2/index.shtml) | HISAT2 is a fast and sensitive alignment program for mapping next-generation sequencing reads (whole-genome, transcriptome, and exome sequencing data) against the general human population (as well as against a single reference genome). | Transcriptome Mapping | [Clone] (https://github.com/infphilo/hisat2/releases)
-| [StringTie] (http://ccb.jhu.edu/software/stringtie/) | StringTie is a fast and highly efficient assembler of RNA-Seq alignments into potential transcripts. | Transcriptome Assembly | [Clone] (https://github.com/gpertea/stringtie)
+| [StringTie](http://ccb.jhu.edu/software/stringtie/) | StringTie is a fast and highly efficient assembler of RNA-Seq alignments into potential transcripts. | Transcriptome Assembly | [Clone] (https://github.com/gpertea/stringtie)
