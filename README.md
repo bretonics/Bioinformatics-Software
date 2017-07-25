@@ -57,7 +57,7 @@
 | :------------- | :------------- | :-------------   | :-------------   |
 | [Bowtie2](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml)| An ultrafast and memory-efficient tool for aligning sequencing reads to long reference sequences. | Reference Mapping | [Download](https://github.com/BenLangmead/bowtie2/releases/latest)
 | [BWA](https://github.com/lh3/bwa) | Mapping DNA sequences against a large reference genome, such as the human genome. It consists of three algorithms: **BWA-backtrack**, **BWA-SW** and **BWA-MEM**. | Reference Mapping | [Download](https://github.com/lh3/bwa/releases/latest)
-| [HISAT2](http://ccb.jhu.edu/software/hisat2/index.shtml) | HISAT2 is a fast and sensitive alignment program for mapping next-generation sequencing reads (whole-genome, transcriptome, and exome sequencing data) against the general human population (as well as against a single reference genome). | Whole-Genome Mapping | [Clone] (https://github.com/infphilo/hisat2/releases)
+| [HISAT2](http://ccb.jhu.edu/software/hisat2/index.shtml) | HISAT2 is a fast and sensitive alignment program for mapping next-generation sequencing reads (whole-genome, transcriptome, and exome sequencing data) against the general human population (as well as against a single reference genome). | Whole-Genome Mapping | [Clone](https://github.com/infphilo/hisat2/releases)
 
 
 
@@ -76,6 +76,6 @@
 ## RNA-Seq
 | Program        | Description    | Purpose          | Source           |
 | :------------- | :------------- | :-------------   | :-------------   |
-| [Cufflinks](http://cole-trapnell-lab.github.io/cufflinks/) | Cufflinks assembles transcripts, estimates their abundances, and tests for differential expression and regulation in RNA-Seq samples. | Transcriptome Assembly | [Clone] (https://github.com/cole-trapnell-lab/cufflinks)
-| [HISAT2](http://ccb.jhu.edu/software/hisat2/index.shtml) | HISAT2 is a fast and sensitive alignment program for mapping next-generation sequencing reads (whole-genome, transcriptome, and exome sequencing data) against the general human population (as well as against a single reference genome). | Transcriptome Mapping | [Clone] (https://github.com/infphilo/hisat2/releases)
-| [StringTie](http://ccb.jhu.edu/software/stringtie/) | StringTie is a fast and highly efficient assembler of RNA-Seq alignments into potential transcripts. | Transcriptome Assembly | [Clone] (https://github.com/gpertea/stringtie)
+| [Cufflinks](http://cole-trapnell-lab.github.io/cufflinks/) | Cufflinks assembles transcripts, estimates their abundances, and tests for differential expression and regulation in RNA-Seq samples. | Transcriptome Assembly | [Clone](https://github.com/cole-trapnell-lab/cufflinks)
+| [HISAT2](http://ccb.jhu.edu/software/hisat2/index.shtml) | HISAT2 is a fast and sensitive alignment program for mapping next-generation sequencing reads (whole-genome, transcriptome, and exome sequencing data) against the general human population (as well as against a single reference genome). | Transcriptome Mapping | [Clone](https://github.com/infphilo/hisat2/releases)
+| [StringTie](http://ccb.jhu.edu/software/stringtie/) | StringTie is a fast and highly efficient assembler of RNA-Seq alignments into potential transcripts. | Transcriptome Assembly | [Clone](https://github.com/gpertea/stringtie)
