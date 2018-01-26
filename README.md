@@ -16,6 +16,7 @@
 | [Seqtk](https://github.com/lh3/seqtk) | Fast and lightweight tool for processing sequences in the FASTA or FASTQ format. | [Clone](https://github.com/lh3/seqtk.git)
 | [SRA Toolkit](http://www.ncbi.nlm.nih.gov/books/NBK242621/) | The SRA Toolkit and SDK from NCBI is a collection of tools and libraries for using data in the INSDC Sequence Read Archives. | [Download](http://ncbi.github.io/sra-tools/)
 | [VCFtools](https://vcftools.github.io/index.html) | Package designed for working with complex genetic variation data in the form of VCF files.| [Download](https://vcftools.github.io/downloads.html)
+| [WebLogo](http://weblogo.threeplusone.com/) | Create sequence logos, a graphical representation of an amino acid or nucleic acid multiple sequence alignment. | [Visit](http://weblogo.threeplusone.com/) [Clone](https://github.com/WebLogo/weblogo)
 
 
 # Analysis
@@ -26,6 +27,7 @@
 | [Circlator](http://sanger-pathogens.github.io/circlator/) |  Predict and automate assembly circularization and produce accurate linear representations of circular sequences. | Circularize Genome | [Download](https://github.com/sanger-pathogens/circlator/releases/latest)
 | [Clustal](http://www.clustal.org/) | Fast and scalable multiple sequence alignment (can align hundreds of thousands of sequences in hours)| MSA | [Download](http://www.clustal.org/omega/#Download)
 | [Galaxy](https://galaxyproject.org/) | Web portal for accessible, reproducible, and transparent computational research. | Analysis package | [Download](https://wiki.galaxyproject.org/Admin/GetGalaxy)
+| [HOMER](http://homer.ucsd.edu/homer/) | HOMER (Hypergeometric Optimization of Motif EnRichment) is a suite of tools for Motif Discovery and next-gen sequencing analysis. | Prediction and analysis | [Download](http://homer.ucsd.edu/homer/download.html)
 | [HMMER](http://hmmer.org/) | Search sequence databases for sequence homologs, and for making sequence alignments, analyzed by using profile hidden Markov models | Detect Homologs | [Download](http://hmmer.org/download.html)
 | [Mauve](http://darlinglab.org/mauve/mauve.html) | A system for constructing multiple genome alignments in the presence of large-scale evolutionary events such as rearrangement and inversion. | Genome Aligner| [Download](http://darlinglab.org/mauve/download.html)
 | [Mothur](http://www.mothur.org/) |  Expandable software to fill the bioinformatics needs of the microbial ecology community. | Microbial Ecology Pipeline | [Download](http://www.mothur.org/wiki/Download_mothur)
