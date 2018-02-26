@@ -6,7 +6,7 @@
 # Workflow Tools
 | Program        | Description    | Source           |
 | :------------- | :------------- | :-------------   |
-| [Artemis](http://www.sanger.ac.uk/science/tools/artemis) | A genome browser and annotation tool that allows visualisation of sequence features, next generation data and the results of analyses within the context of the sequence, and also its six-frame translation. | [Download](http://www.sanger.ac.uk/science/tools/artemis)
+| [Artemis](http://www.sanger.ac.uk/science/tools/artemis) | A genome browser and annotation tool that allows visualization of sequence features, next generation data and the results of analyses within the context of the sequence, and also its six-frame translation. | [Download](http://www.sanger.ac.uk/science/tools/artemis)
 | [BamTools](https://github.com/pezmaster31/bamtools) | C++ API & command-line toolkit for working with BAM (Binary SAM file) data. Provides a programmer's API and an end-user's toolkit for handling BAM files. | [Clone](https://github.com/pezmaster31/bamtools/wiki/Building-and-installing)
 |[BLAST+](https://www.ncbi.nlm.nih.gov/books/NBK279690/) | Command line application suite of BLAST tools that utilizes the NCBI C++ Toolkit. | [Download](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOC_TYPE=Download)
 | [EDirect](http://www.ncbi.nlm.nih.gov/books/NBK179288/) | An advanced method for accessing the NCBI's set of interconnected databases (publication, sequence, structure, gene, variation, expression, etc.) from a UNIX terminal. | N/A
@@ -16,10 +16,12 @@
 | [Seqtk](https://github.com/lh3/seqtk) | Fast and lightweight tool for processing sequences in the FASTA or FASTQ format. | [Clone](https://github.com/lh3/seqtk.git)
 | [SRA Toolkit](http://www.ncbi.nlm.nih.gov/books/NBK242621/) | The SRA Toolkit and SDK from NCBI is a collection of tools and libraries for using data in the INSDC Sequence Read Archives. | [Download](http://ncbi.github.io/sra-tools/)
 | [VCFtools](https://vcftools.github.io/index.html) | Package designed for working with complex genetic variation data in the form of VCF files.| [Download](https://vcftools.github.io/downloads.html)
-| [WebLogo](http://weblogo.threeplusone.com/) | Create sequence logos, a graphical representation of an amino acid or nucleic acid multiple sequence alignment. | [Visit](http://weblogo.threeplusone.com/) [Clone](https://github.com/WebLogo/weblogo)
+| [WebLogo](http://weblogo.threeplusone.com/) | Create sequence logos, a graphical representation of an amino acid or nucleic acid multiple sequence alignment. | [Clone](https://github.com/WebLogo/weblogo) <br> [Visit](http://weblogo.threeplusone.com/)
 
 
 # Analysis
+
+## DNA
 | Program        | Description    | Purpose          | Source           |
 | :------------- | :------------- | :-------------   | :-------------   |
 | [AUGUSTUS](http://bioinf.uni-greifswald.de/augustus/) | *ab initio*, trainable gene prediction in eukaryotic genomic sequences.  | Gene Prediction | [Download](http://bioinf.uni-greifswald.de/augustus/downloads/)
@@ -40,7 +42,7 @@
 | [ViennaRNA Package](http://www.tbi.univie.ac.at/RNA/) | Programs for the prediction and comparison of RNA secondary structures. | Prediction | [Download](http://www.tbi.univie.ac.at/RNA/#download)
 
 
-## PacBio Sequencing
+### PacBio Sequencing
 | Program        | Description    | Purpose          | Source           |
 | :------------- | :------------- | :-------------   | :-------------   |
 | [BLASR](https://github.com/PacificBiosciences/blasr) | PacBio® long read aligner | Sequence Aligner | [Download](https://github.com/PacificBiosciences/blasr/releases/latest)
@@ -53,17 +55,15 @@
 | [Sprai](http://zombie.cb.k.u-tokyo.ac.jp/sprai/README.html)| Sprai (single-pass read accuracy improver) is a tool to correct sequencing errors in single-pass reads for de novo assembly. | Sequencing Error-correction| [Download](http://zombie.cb.k.u-tokyo.ac.jp/sprai/Download.html)
 
 
-## Illumina Sequencing
-### Referenced
+### Illumina Sequencing
+#### Referenced
 | Program        | Description    | Purpose          | Source           |
 | :------------- | :------------- | :-------------   | :-------------   |
 | [Bowtie2](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml)| An ultrafast and memory-efficient tool for aligning sequencing reads to long reference sequences. | Reference Mapping | [Download](https://github.com/BenLangmead/bowtie2/releases/latest)
 | [BWA](https://github.com/lh3/bwa) | Mapping DNA sequences against a large reference genome, such as the human genome. It consists of three algorithms: **BWA-backtrack**, **BWA-SW** and **BWA-MEM**. | Reference Mapping | [Download](https://github.com/lh3/bwa/releases/latest)
 | [HISAT2](http://ccb.jhu.edu/software/hisat2/index.shtml) | HISAT2 is a fast and sensitive alignment program for mapping next-generation sequencing reads (whole-genome, transcriptome, and exome sequencing data) against the general human population (as well as against a single reference genome). | Whole-Genome Mapping | [Clone](https://github.com/infphilo/hisat2/releases)
 
-
-
-### De novo
+#### De novo
 | Program        | Description    | Purpose          | Source           |
 | :------------- | :------------- | :-------------   | :-------------   |
 | [ABySS](http://www.bcgsc.ca/platform/bioinfo/software/abyss) | De novo, parallel, paired-end sequence assembler designed for short reads and large genomes. | Genome Assembly | [Download](https://github.com/bcgsc/abyss/releases/latest) <br> [Install](https://github.com/bcgsc/abyss#quick-start)
@@ -79,5 +79,18 @@
 | Program        | Description    | Purpose          | Source           |
 | :------------- | :------------- | :-------------   | :-------------   |
 | [Cufflinks](http://cole-trapnell-lab.github.io/cufflinks/) | Cufflinks assembles transcripts, estimates their abundances, and tests for differential expression and regulation in RNA-Seq samples. | Transcriptome Assembly | [Clone](https://github.com/cole-trapnell-lab/cufflinks)
+| [DESeq2](https://bioconductor.org/packages/3.7/bioc/vignettes/DESeq2/inst/doc/DESeq2.html) | The package DESeq2 provides methods to test for differential expression by use of negative binomial generalized linear models. | Differential Expression | [Clone](https://github.com/mikelove/DESeq2) <br> [Bioconductor](https://www.bioconductor.org/packages/release/bioc/html/DESeq2.html)
 | [HISAT2](http://ccb.jhu.edu/software/hisat2/index.shtml) | HISAT2 is a fast and sensitive alignment program for mapping next-generation sequencing reads (whole-genome, transcriptome, and exome sequencing data) against the general human population (as well as against a single reference genome). | Transcriptome Mapping | [Clone](https://github.com/infphilo/hisat2/releases)
 | [StringTie](http://ccb.jhu.edu/software/stringtie/) | StringTie is a fast and highly efficient assembler of RNA-Seq alignments into potential transcripts. | Transcriptome Assembly | [Clone](https://github.com/gpertea/stringtie)
+
+
+### Single Cell
+| Program        | Description    | Purpose          | Source           |
+| :------------- | :------------- | :-------------   | :-------------   |
+| [Celda]() | Bayesian hierarchical modeling for clustering Single Cell RNA-Seq Data. | Differential Expression | [Clone](https://github.com/compbiomed/celda)
+| [Chromium Single Cell Software Suite](https://support.10xgenomics.com/single-cell-gene-expression/software/overview/welcome) | Package for analyzing and visualizing single cell 3’ RNA-seq data produced by the 10x Chromium Platform.<br><br> [Cell Ranger (Pipelines)](https://support.10xgenomics.com/single-cell-gene-expression/software/overview/welcome) is a set of analysis pipeline tools that perform sample demultiplexing, barcode processing, and single cell 3’ gene counting. <br><br> [Loupe&trade; Cell Browser]() is an interactive desktop application that helps find significant genes, cell types, and substructure within your single cell data. <br><br>[Cell Ranger (R Kit)](https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/rkit) is a R package for secondary analysis of Cell Ranger matrix data, including PCA and t-SNE projection, and k-means clustering. | Analysis Package | [Clone](https://github.com/10XGenomics/cellranger) <br> [Download](https://support.10xgenomics.com/single-cell-gene-expression/software/downloads/latest)
+| [Pagoda](http://hms-dbmi.github.io/scde/) | Framework which applies pathway and gene set overdispersion analysis to identify aspects of transcriptional heterogeneity among single cells. | Pathway/Gene Set Analysis  | [Clone](https://github.com/hms-dbmi/pagoda2)
+| [SCDE]() | The SCDE package implements a set of statistical methods for analyzing single cell RNA-seq data, including differential expression analysis and pathway and geneset overdispersion analysis [PAGODA](https://github.com/hms-dbmi/pagoda2). | Differential Expression | [Clone](https://github.com/hms-dbmi/scde) <br> [Download](http://hms-dbmi.github.io/scde/package.html)
+| [Seurat](http://satijalab.org/seurat/) | R package designed for QC, analysis, and exploration of single cell RNA-seq data. | Differential Expression | [Clone](https://github.com/satijalab/seurat) <br> [Install](http://satijalab.org/seurat/install.html)
+| [SPRING](https://kleintools.hms.harvard.edu/tools/spring.html) | SPRING is a kinetic interface tool for uncovering high-dimensional structure in single cell gene expression data. | Visualization | [Clone](https://github.com/AllonKleinLab/SPRING/) <br> [Visit](https://kleintools.hms.harvard.edu/tools/spring.html)
+| [Monocle](http://cole-trapnell-lab.github.io/monocle-release/) | An analysis toolkit for single cell RNA-seq that performs differential expression and time-series analysis for single cell expression experiments. | Differential Expression | [Clone](https://github.com/cole-trapnell-lab/monocle-release) <br> [Bioconductor](https://bioconductor.org/packages/release/bioc/html/monocle.html)
