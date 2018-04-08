@@ -11,7 +11,10 @@
 |[BLAST+](https://www.ncbi.nlm.nih.gov/books/NBK279690/) | Command line application suite of BLAST tools that utilizes the NCBI C++ Toolkit. | [Download](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOC_TYPE=Download)
 | [EDirect](http://www.ncbi.nlm.nih.gov/books/NBK179288/) | An advanced method for accessing the NCBI's set of interconnected databases (publication, sequence, structure, gene, variation, expression, etc.) from a UNIX terminal. | N/A
 | [E-utilities](http://www.ncbi.nlm.nih.gov/books/NBK25497/) | Entrez Programming Utilities (E-utilities) are a set of nine server-side programs that provide a stable interface into the Entrez query and database system at the NCBI. | N/A
+| [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/) | A quality control tool for high throughput sequence data. | [Clone](https://github.com/s-andrews/FastQC) <br> [Download](https://www.bioinformatics.babraham.ac.uk/projects/download.html#fastqc)  
 | [IGV](http://software.broadinstitute.org/software/igv/home) | Integrative Genomics Viewer (IGV) is a high-performance visualization tool for interactive exploration of large, integrated genomic datasets. It supports a wide variety of data types, including array-based and next-generation sequence data, and genomic annotations. <br><br>The **igvtools** utility provides a set of tools for pre-processing data files. | [Download](http://software.broadinstitute.org/software/igv/download)
+| [Martian](http://martian-lang.org/) | Martian is a language and framework for developing and executing complex computational pipelines. |  [Clone](https://github.com/martian-lang/martian) <br> [Download](http://martian-lang.org/getting-started/)
+| [Nextflow](https://www.nextflow.io/) | Data-driven computational pipelines. Nextflow enables scalable and reproducible scientific workflows using software containers. It allows the adaptation of pipelines written in the most common scripting languages. | [Clone](https://github.com/nextflow-io/nextflow)
 | [Samtools](http://www.htslib.org/) | A suite of programs for interacting with high-throughput sequencing data (HTS) from next generation sequencing data. It consists of three separate repositories:<br><br>**Samtools:** Reading/writing/editing/indexing/viewing SAM/BAM/CRAM format.<br><br>**BCFtools:** Reading/writing BCF2/VCF/gVCF files and calling/filtering/summarising SNP and short indel sequence variants.<br><br>**HTSlib:** A C library for reading/writing high-throughput sequencing data. | [Download](http://www.htslib.org/download/)
 | [Seqtk](https://github.com/lh3/seqtk) | Fast and lightweight tool for processing sequences in the FASTA or FASTQ format. | [Clone](https://github.com/lh3/seqtk.git)
 | [SRA Toolkit](http://www.ncbi.nlm.nih.gov/books/NBK242621/) | The SRA Toolkit and SDK from NCBI is a collection of tools and libraries for using data in the INSDC Sequence Read Archives. | [Download](http://ncbi.github.io/sra-tools/)
@@ -21,7 +24,7 @@
 
 # Analysis
 
-# DNA
+## DNA
 | Program        | Description    | Purpose          | Source           |
 | :------------- | :------------- | :-------------   | :-------------   |
 | [AUGUSTUS](http://bioinf.uni-greifswald.de/augustus/) | *ab initio*, trainable gene prediction in eukaryotic genomic sequences.  | Gene Prediction | [Download](http://bioinf.uni-greifswald.de/augustus/downloads/)
@@ -41,6 +44,7 @@
 | [QUAST](http://bioinf.spbau.ru/quast) | Evaluates genome assemblies. | Evaluate Genome Assemblies | [Download](https://sourceforge.net/projects/quast/files/latest/download?source=files)
 | [T-Coffee](http://www.tcoffee.org/) | A multiple sequence alignment package that can align sequences (Protein, DNA, and RNA) or combine the output of your favorite alignment methods (Clustal, Mafft, Probcons, Muscle...) into one unique alignment (**M-Coffee**). It is also able to combine sequence information with protein structural information (**3D-Coffee/Expresso**), profile information (**PSI-Coffee**) or RNA secondary structures. | MSA | [Download](http://www.tcoffee.org/Projects/tcoffee/#DOWNLOAD)
 | [ViennaRNA Package](http://www.tbi.univie.ac.at/RNA/) | Programs for the prediction and comparison of RNA secondary structures. | Prediction | [Download](http://www.tbi.univie.ac.at/RNA/#download)
+
 
 ### PacBio Sequencing
 | Program        | Description    | Purpose          | Source           |
@@ -71,7 +75,6 @@
 | [DISCOVAR](http://www.broadinstitute.org/scientific-community/science/programs/genome-sequencing-and-analysis/computational-rd/computational-) | Genome assembler and variant caller. | Genome Assembly | [Download](http://www.broadinstitute.org/software/discovar/blog/?page_id=98)
 | [SOAPdenovo](http://soap.genomics.org.cn/soapdenovo.html) | Novel short-read assembly method that can build a de novo draft assembly for the human-sized genomes. | Genome Assembly | [Download](https://sourceforge.net/projects/soapdenovo2/files/latest/download?source=files)
 | [SPAdes](http://bioinf.spbau.ru/en/content/spades-download-0) | Genome assembler intended for both standard isolates and single-cell MDA bacteria assemblies using Illumina or IonTorrent reads and is capable of providing hybrid assemblies using PacBio, Oxford Nanopore and Sanger reads. | Genome/Hybrid Assembly | [Download](http://bioinf.spbau.ru/en/content/spades-download-0)
-| [Trinity](https://github.com/trinityrnaseq/trinityrnaseq/wiki) | Trinity assembles transcript sequences from Illumina RNA-Seq data. | Transcriptome Assembly| [Download](https://github.com/trinityrnaseq/trinityrnaseq/releases/latest)
 | [Velvet](http://www.ebi.ac.uk/~zerbino/velvet/) | Short read de novo assembler using de Bruijn graphs. | Genome Assembly | [Download](https://github.com/dzerbino/velvet/tree/master)
 
 
