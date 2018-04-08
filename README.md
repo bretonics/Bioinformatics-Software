@@ -78,11 +78,15 @@
 ## RNA-Seq
 | Program        | Description    | Purpose          | Source           |
 | :------------- | :------------- | :-------------   | :-------------   |
+| [Ballgown](https://github.com/alyssafrazee/ballgown) | A program for computing differentially expressed genes in two or more RNA-seq experiments, using the output of StringTie or Cufflinks. The Ballgown package provides functions to organize, visualize, and analyze expression measurements. | Transcriptome Assembly | [Clone](https://github.com/alyssafrazee/ballgown) <br> [Bioconductor](https://bioconductor.org/packages/release/bioc/html/ballgown.html)
 | [Cufflinks](http://cole-trapnell-lab.github.io/cufflinks/) | Cufflinks assembles transcripts, estimates their abundances, and tests for differential expression and regulation in RNA-Seq samples. | Transcriptome Assembly | [Clone](https://github.com/cole-trapnell-lab/cufflinks)
 | [DESeq2](https://bioconductor.org/packages/3.7/bioc/vignettes/DESeq2/inst/doc/DESeq2.html) | The package DESeq2 provides methods to test for differential expression by use of negative binomial generalized linear models. | Differential Expression | [Clone](https://github.com/mikelove/DESeq2) <br> [Bioconductor](https://www.bioconductor.org/packages/release/bioc/html/DESeq2.html)
+| [edgeR](http://bioinf.wehi.edu.au/edgeR/) | Differential expression analysis of RNA-seq expression profiles with biological replication. It can be applied to differential signal analysis of other types of genomic data that produce counts, including ChIP-seq, Bisulfite-seq, SAGE and CAGE. | Differential Expression | [Bioconductor](http://bioconductor.org/packages/release/bioc/html/edgeR.html)
 | [HISAT2](http://ccb.jhu.edu/software/hisat2/index.shtml) | HISAT2 is a fast and sensitive alignment program for mapping next-generation sequencing reads (whole-genome, transcriptome, and exome sequencing data) against the general human population (as well as against a single reference genome). | Transcriptome Mapping | [Clone](https://github.com/infphilo/hisat2/releases)
+| [HTSeq](http://htseq.readthedocs.io) | HTSeq is a Python package that provides infrastructure to process data from high-throughput sequencing assays. | Analysis Package | [Clone](https://github.com/simon-anders/htseq) <br> [Download](http://htseq.readthedocs.io/en/release_0.9.1/install.html)
 | [START](https://academic.oup.com/bioinformatics/article/29/1/15/272537) | Ultrafast universal RNA-seq aligner. | RNA-seq Aligner | [Clone](https://github.com/alexdobin/STAR)
 | [StringTie](http://ccb.jhu.edu/software/stringtie/) | StringTie is a fast and highly efficient assembler of RNA-Seq alignments into potential transcripts. | Transcriptome Assembly | [Clone](https://github.com/gpertea/stringtie)
+| [Trinity](https://github.com/trinityrnaseq/trinityrnaseq/wiki) | Trinity assembles transcript sequences from Illumina RNA-Seq data. | Transcriptome Assembly| [Download](https://github.com/trinityrnaseq/trinityrnaseq/releases/latest)
 
 
 ### Single Cell
