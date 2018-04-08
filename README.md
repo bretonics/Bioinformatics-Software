@@ -21,7 +21,7 @@
 
 # Analysis
 
-## DNA
+# DNA
 | Program        | Description    | Purpose          | Source           |
 | :------------- | :------------- | :-------------   | :-------------   |
 | [AUGUSTUS](http://bioinf.uni-greifswald.de/augustus/) | *ab initio*, trainable gene prediction in eukaryotic genomic sequences.  | Gene Prediction | [Download](http://bioinf.uni-greifswald.de/augustus/downloads/)
@@ -31,6 +31,7 @@
 | [Galaxy](https://galaxyproject.org/) | Web portal for accessible, reproducible, and transparent computational research. | Analysis package | [Download](https://wiki.galaxyproject.org/Admin/GetGalaxy)
 | [HOMER](http://homer.ucsd.edu/homer/) | HOMER (Hypergeometric Optimization of Motif EnRichment) is a suite of tools for Motif Discovery and next-gen sequencing analysis. | Prediction and analysis | [Download](http://homer.ucsd.edu/homer/download.html)
 | [HMMER](http://hmmer.org/) | Search sequence databases for sequence homologs, and for making sequence alignments, analyzed by using profile hidden Markov models | Detect Homologs | [Download](http://hmmer.org/download.html)
+| [HTSeq](http://htseq.readthedocs.io) | HTSeq is a Python package that provides infrastructure to process data from high-throughput sequencing assays. | Analysis Package | [Clone](https://github.com/simon-anders/htseq) <br> [Download](http://htseq.readthedocs.io/en/release_0.9.1/install.html)
 | [Mauve](http://darlinglab.org/mauve/mauve.html) | A system for constructing multiple genome alignments in the presence of large-scale evolutionary events such as rearrangement and inversion. | Genome Aligner| [Download](http://darlinglab.org/mauve/download.html)
 | [Mothur](http://www.mothur.org/) |  Expandable software to fill the bioinformatics needs of the microbial ecology community. | Microbial Ecology Pipeline | [Download](http://www.mothur.org/wiki/Download_mothur)
 | [MUMmer Package](http://mummer.sourceforge.net/)| Ultra-fast alignment of large-scale DNA and protein sequences. A system for rapidly aligning entire genomes, whether in complete or draft form. <br><br>**MUMmer** is a suffix tree algorithm designed to find maximal exact matches of some minimum length between two input sequences.<br><br>**NUCmer** is a standard DNA sequence alignment. It is a robust pipeline that allows for multiple reference and multiple query sequences to be aligned in a many vs. many fashion.<br><br>**PROmer** is like NUCmer with one exception - all matching and alignment routines are performed on the six frame amino acid translation of the DNA input sequence. | Genome Aligner | [Download](https://sourceforge.net/projects/mummer/files/latest/download?source=files)
@@ -40,7 +41,6 @@
 | [QUAST](http://bioinf.spbau.ru/quast) | Evaluates genome assemblies. | Evaluate Genome Assemblies | [Download](https://sourceforge.net/projects/quast/files/latest/download?source=files)
 | [T-Coffee](http://www.tcoffee.org/) | A multiple sequence alignment package that can align sequences (Protein, DNA, and RNA) or combine the output of your favorite alignment methods (Clustal, Mafft, Probcons, Muscle...) into one unique alignment (**M-Coffee**). It is also able to combine sequence information with protein structural information (**3D-Coffee/Expresso**), profile information (**PSI-Coffee**) or RNA secondary structures. | MSA | [Download](http://www.tcoffee.org/Projects/tcoffee/#DOWNLOAD)
 | [ViennaRNA Package](http://www.tbi.univie.ac.at/RNA/) | Programs for the prediction and comparison of RNA secondary structures. | Prediction | [Download](http://www.tbi.univie.ac.at/RNA/#download)
-
 
 ### PacBio Sequencing
 | Program        | Description    | Purpose          | Source           |
