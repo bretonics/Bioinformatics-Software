@@ -1,0 +1,38 @@
+---
+title: "Cell Ranger Metrics"
+author: "Andrés Bretón"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r Global, include=FALSE}
+library(knitr)
+currentDir <- getwd()
+investigator <- basename(dirname(currentDir))
+projectDate <- basename(currentDir)
+projectName <- paste(projectDate, investigator, sep = "_")
+protocol <- "3'v2 Single Cell Gene Expression"
+regexProtocol <- regexpr("^\\d'\\w*(\\(\\w\\)\\w)?", protocol, perl=TRUE)
+pEnd <- regmatches(protocol, regexProtocol)
+sampleNames <- read.csv( file.path("~", "Sequencing", projectName, paste0(projectName, ".csv") ) , header=T)$Sample
+fileName <- paste0(projectName, "_metrics", "-", pEnd, ".csv")
+```
+
+```{r Metrics, echo=FALSE, paged.print=TRUE, results='asis'}
+# Create matrix with appropriate number of columns per metric for protocol
+numColumns <- ncol(read.table(paste0(sampleNames[1], "/outs/metrics_summary.csv"), sep = ",", header=TRUE))
+metrics <- matrix(ncol = numColumns, nrow = 0)  # hold all samples' metrics
+
+# Add each sample's metrics to matrix
+for(sample in sampleNames) {
+    metric.file <- paste0(sample, "/outs/metrics_summary.csv")
+    metric <- as.matrix(read.table(metric.file, sep = ",", header=TRUE))
+    metrics <- rbind(metrics, metric)
+}
+
+# Create table
+rownames(metrics) <- sampleNames
+write.csv(metrics, file=fileName)
+cat(paste0("## ", investigator, " Project [", projectDate, "]"))
+kable(t(metrics))
+```
